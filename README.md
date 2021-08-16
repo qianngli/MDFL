@@ -41,9 +41,8 @@ Training
 |  x4 |  39.283 / 0.9328 / 3.182 | 40.177 / 0.9380 / 2.393  | 
 |  x8 |  35.422 / 0.8834 / 4.385  |  35.250 / 0.8749 / 2.892 |    
 
-**We also provide visual results  for scale X4 on CAVE dataset in terms of spatial reconstruction and spectral distortions.**
+**We also provide test results  for scale X4 on two datasets in terms of spatial reconstruction and spectral distortions. The results  are  [here](https://drive.google.com/drive/folders/1n6j3tv1pJ34hzu0SOp2px9qW6zl4R_uo?usp=sharing)**
 
-![Image text](https://github.com/qianngli/Images/blob/master/cave_space.png)
 
 --------
 If you has any questions, please send e-mail to liqmges@gmail.com.
