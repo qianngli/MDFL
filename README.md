@@ -8,9 +8,9 @@ Motivation
 
 Flowchat
 =====
-![Image text](https://github.com/qianngli/Images/blob/master/asfs.jpg)
+![Image text](https://github.com/qianngli/Images/blob/master/mdfl.jpg)
 
-**The network mainly contains feature extraction (FE) and image reconstruction (IR). Inspired by the high similarity among adjacent bands, neighboring band partition is proposed to divide the adjacent bands into several groups. Through the current  band,  the  adjacent bands is guided to enhance the exploration ability. To explore more complementary information, an alternative fusion mechanism, i.e., intra-group fusion and inter-group fusion, is designed, which helps to recover the missing details in the current band.**
+**We propose a multi-domain feature learning network in alternate manner for hyperspectral image SR.  Overall, the architecture of the proposed method contains four parts, covering initial feature extraction, multi-domain feature learning module (MDFL) with 2D/3D unit, multi-domain feature fusion (MDFF), and  image reconstruction.  Specifically, a multi-domain feature  learning strategy is proposed to explore the spatial and spectral knowledge by sharing spatial information. To better fuse those feature from different domains,  the multi-domain features fusion module is introduced to learn more effective information, so as to further realize information complementation. Moreover, to recover the more edge details, we design the edge generation mechanism  to explicitly  enable the network provide priori edge.**
 
 Dataset
 ------
