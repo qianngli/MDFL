@@ -31,7 +31,20 @@ Training
 ###### # python train.py --cuda --datasetName CAVE  --upscale_factor 4
 ###### # python test.py --cuda --model_name checkpoint/model_4_epoch_xx.pth
 
-  
+ Result
+--------
+**To qualitatively measure the proposed method, three evaluation methods are employed to verify the effectiveness of the algorithm, including  peak signal-to-noise ratio (PSNR), structural similarity (SSIM), and spectral angle mapping (SAM).**
+
+
+| Scale  |  CAVE |  Harvard |
+| :------------: | :------------: | :------------: |  
+|  x4 |  39.283 / 0.9328 / 3.182 | 40.177 / 0.9380 / 2.393  | 
+|  x8 |  35.422 / 0.8834 / 4.385  |  35.250 / 0.8749 / 2.892 |    
+
+**We also provide visual results  for scale X4 on CAVE dataset in terms of spatial reconstruction and spectral distortions.**
+
+
+
 --------
 If you has any questions, please send e-mail to liqmges@gmail.com.
 
