@@ -43,7 +43,7 @@ Training
 
 **We also provide visual results  for scale X4 on CAVE dataset in terms of spatial reconstruction and spectral distortions.**
 
-
+![Image text](https://github.com/qianngli/Images/blob/master/cave_space.pdf)
 
 --------
 If you has any questions, please send e-mail to liqmges@gmail.com.
