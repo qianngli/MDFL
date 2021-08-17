@@ -4,7 +4,7 @@ MDFL
 
 Motivation
 =======
-**The hyperspectral image has the remarkable characteristics of high similarity between adjacent bands. When reconstructing the current band, if the adjacent bands are employed effectively, the complementary information would be beneficial to recover more missing details. Besides,  in a certain spectral range, the sharpness of the edge in the image varies with the bands. It indicates the information of different bands complements each other.**
+**When the spatial and spectral information can be extracted, the key issue is how to combine multi-domain features to learn more effective information, achieving complementation. Besides,  at present, there has been very little research by employing 2D/3D convolution to build the model. Therefore, it still needs more research efforts**
 
 Flowchat
 =====
@@ -14,7 +14,7 @@ Flowchat
 
 Dataset
 ------
-**Three public datasets, i.e., [CAVE](https://www1.cs.columbia.edu/CAVE/databases/multispectral/ "CAVE"), [Harvard](http://vision.seas.harvard.edu/hyperspec/explore.html "Harvard"), [Foster](https://personalpages.manchester.ac.uk/staff/d.h.foster/Local\_Illumination\_HSIs/Local\_Illumination\_HSIs\_2015.html "Foster"), are employed to verify the effectiveness of the  proposed MCNet. Since there are too few images in these datasets for deep learning algorithm, we augment the training data. With respect to the specific details, please see the implementation details section.**
+**Two public datasets, i.e., [CAVE](https://www1.cs.columbia.edu/CAVE/databases/multispectral/ "CAVE") and [Harvard](http://vision.seas.harvard.edu/hyperspec/explore.html "Harvard"), are employed to verify the effectiveness of the  proposed MCNet. Since there are too few images in these datasets for deep learning algorithm, we augment the training data. With respect to the specific details, please see the implementation details section.**
 
 **Moreover, we also provide the code about data pre-processing in floder [data pre-processing](https://github.com/qianngli/MCNet "data pre-processing"). The floder contains three parts, including training set augment, test set pre-processing, and band mean for all training set.**
 
